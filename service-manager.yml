@@ -33,13 +33,6 @@ serviceManager:
         - "8765" 
       bootstrapHosts: 
         - "naturespocket-VirtualBox.localdomain"
-    query-service: 
-      sslEnabled: false
-      version: "0.4.5-SNAPSHOT" 
-      ports: 
-        - "8762" 
-      bootstrapHosts: 
-        - "naturespocket-VirtualBox.localdomain"
     self-test:
       sslEnabled: false
       version: "0.4.5-SNAPSHOT"
