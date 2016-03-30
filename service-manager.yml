@@ -25,21 +25,21 @@ serviceManager:
       ports: 
         - "8761" 
       bootstrapHosts: 
-        - "timothys-iMac.local"
+        - "naturespocket-VirtualBox.localdomain"
     router: 
       sslEnabled: false
       version: "0.4.5-SNAPSHOT" 
       ports: 
         - "8765" 
       bootstrapHosts: 
-        - "timothys-iMac.local"
+        - "naturespocket-VirtualBox.localdomain"
     query-service: 
       sslEnabled: false
       version: "0.4.5-SNAPSHOT" 
       ports: 
         - "8762" 
       bootstrapHosts: 
-        - "timothys-iMac.local"
+        - "naturespocket-VirtualBox.localdomain"
     self-test:
       sslEnabled: false
       version: "0.4.5-SNAPSHOT"
@@ -57,24 +57,6 @@ serviceManager:
       ports:
         - "9090-9095"
       bootstrapHosts:
-        - "timothys-iMac.local"
-    merchant-locator:
-      sslEnabled: false
-      auto-scale: 
-        enabled: true
-        highResponseTimeThresholdMillis: 200
-        lowResponseTimeThresholdMillis: 5
-        highMemoryThresholdPercentage: 85
-        highCpuLoadThresholdPercentage: 60
-        lowCpuThresholdPercentage: 5
-        maxInstances: 3
-        minInstances: 1
-        stableMaxIterations: 12
-        unstableMaxIterations: 12
-      version: "0.4.5-SNAPSHOT" 
-      ports: 
-        - "9000-9003"
-      bootstrapHosts:
-        - "timothys-iMac.local"
+        - "naturespocket-VirtualBox.localdomain"
 
         
