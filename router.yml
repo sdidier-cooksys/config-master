@@ -1,6 +1,10 @@
 info:
   component: Zuul Server
 
+webApp:
+  discoveryUrl: "naturespocket-VirtualBox:8761"
+  turbineUrl: "http://naturespocket-VirtualBox:8765/hystrix/monitor?stream-http%3A%2F%2Fnaturespocket-VirtualBox%3A8765%2Fhystrix.stream"
+
 eureka:
   instance:
     prefer-ip-address: true
