@@ -25,14 +25,14 @@ serviceManager:
       ports: 
         - "8761" 
       bootstrapHosts: 
-        - "naturespocket-VirtualBox.localdomain"
+        - "localhost.localdomain"
     router: 
       sslEnabled: false
       version: "0.4.5-SNAPSHOT" 
       ports: 
         - "8765" 
       bootstrapHosts: 
-        - "naturespocket-VirtualBox.localdomain"
+        - "localhost.localdomain"
     self-test:
       sslEnabled: false
       version: "0.4.5-SNAPSHOT"
@@ -50,6 +50,6 @@ serviceManager:
       ports:
         - "9090-9095"
       bootstrapHosts:
-        - "naturespocket-VirtualBox.localdomain"
+        - "localhost.localdomain"
 
         
