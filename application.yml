@@ -22,7 +22,7 @@ eureka:
 
 eventBus:
   broker: redis
-  redisHost: naturespocket-VirtualBox
+  redisHost: localhost
   redisPort: 6379
   redisTopic: csrt-event-bus
 
